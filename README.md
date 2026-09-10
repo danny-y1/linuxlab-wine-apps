@@ -1,11 +1,14 @@
-# LinuxLab Wine Apps
+# Windows Application Archive
 
-该仓库是 Linux 用机助手扫描的公开 Windows/Wine 应用目录。
+社区维护的 Windows 应用归档与元数据索引，用于软件保存、兼容性研究和自动化获取。
 
-- 机器入口：`linuxlab-apps.json`
-- 单应用元数据：`apps/*.json`
-- 大文件资源：`assets/**` 分片，由助手通过 GitHub Contents API 下载、逐片校验并重组
-- 指定账号来源由产品标记为 `account_trusted`
-- `account_trusted` 不代表已经验证 Wine 兼容或完成安装
+本仓库不是所收录软件原开发商或发行商的官方仓库。应用名称和商标归各自权利人所有。
 
-更新顺序：生成不可变分片、校验每片和最终文件摘要、上传全部分片、远端逐片复验，最后更新 `linuxlab-apps.json`。
+## 内容
+
+- `linuxlab-apps.json`：机器可读的应用索引
+- `apps/*.json`：单个应用的版本与文件元数据
+- `assets/**`：大文件的分段归档
+- Releases：适合直接分发的完整应用包
+
+归档文件会记录大小和 SHA-256，以便下载后检查文件完整性。兼容性、许可证和使用条件以对应应用及其运行环境为准。
