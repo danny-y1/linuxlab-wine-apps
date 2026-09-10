@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/danny-y1/linuxlab-wine-apps/schema/linuxlab-apps.schema.json",
   "type": "object",
