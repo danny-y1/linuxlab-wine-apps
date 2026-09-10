@@ -1,0 +1,13 @@
+{
+  "id": "red-alert-2-republic",
+  "name": "红色警戒2共和国之辉",
+  "version": "v1",
+  "release_tag": "red-alert-2-republic-v1",
+  "asset_name": "red-alert-2-republic.exe",
+  "artifact_kind": "windows_pe",
+  "architecture": "x86",
+  "size_bytes": 136611315,
+  "sha256": "63a1f9e44a918fb2289dc0ee4e3262a7657317e9182fc86b915c06da14f8e685",
+  "authenticode": "unsigned",
+  "publish_state": "awaiting_asset_upload"
+}
