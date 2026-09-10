@@ -14,7 +14,7 @@
     "size_bytes":  136611315,
     "sha256":  "63a1f9e44a918fb2289dc0ee4e3262a7657317e9182fc86b915c06da14f8e685",
     "authenticode":  "unsigned",
-    "repository":  "linuxlab-wine-apps",
+    "repository":  "windows-app-archive",
     "ref":  "main",
     "delivery":  "github_parts",
     "parts":  [
