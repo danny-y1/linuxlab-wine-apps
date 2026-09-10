@@ -1,107 +1,15 @@
 {
-    "id":  "red-alert-2-republic",
-    "name":  "红色警戒2共和国之辉",
-    "aliases":  [
-                    "红警2共和国之辉",
-                    "共和国之辉",
-                    "红警2"
-                ],
-    "version":  "v1",
-    "source_class":  "portable",
-    "trust_level":  "account_trusted",
-    "artifact_kind":  "windows_pe",
-    "architecture":  "x86",
-    "size_bytes":  136611315,
-    "sha256":  "63a1f9e44a918fb2289dc0ee4e3262a7657317e9182fc86b915c06da14f8e685",
-    "authenticode":  "unsigned",
-    "repository":  "windows-app-archive",
-    "ref":  "main",
-    "delivery":  "github_parts",
-    "parts":  [
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part001",
-                      "size_bytes":  8388608,
-                      "sha256":  "001603335c6a2c44355dfebc19d749c623f62443c250ee2cebb30b9d32601f71"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part002",
-                      "size_bytes":  8388608,
-                      "sha256":  "b64f36a68b076f429f2612faee5de7bf04105ff0a066b7224782e2fd6bed7b55"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part003",
-                      "size_bytes":  8388608,
-                      "sha256":  "03d0f791006d77cb902ec3f100b5d88573181c35df2fb6a03cd10cd6cbd02ce2"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part004",
-                      "size_bytes":  8388608,
-                      "sha256":  "3e7e400d83912b1a63d94649361eb31e7ae3b278c4c8c1f5529def1c2aab6433"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part005",
-                      "size_bytes":  8388608,
-                      "sha256":  "e8157e7348d135d0b5d7f063935395eda334e958dc0be80b60ab143c026a5c15"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part006",
-                      "size_bytes":  8388608,
-                      "sha256":  "85575f0ebedc2431b12fbcc78b5a1386cf63bd20fe8f30c82f7071f5f7781cdb"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part007",
-                      "size_bytes":  8388608,
-                      "sha256":  "1d471f788e96a7bf3e8a09df7da1703c75cd84c6314061685e75174a769ef348"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part008",
-                      "size_bytes":  8388608,
-                      "sha256":  "8ad620d4518f7fb32385edeab43ca881e87c420b23df9366613d7e2bc3a60721"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part009",
-                      "size_bytes":  8388608,
-                      "sha256":  "623d565a3a23b409514bdba2e5f0d259bd1aaa40b6e7cc04993c9d8759f54c04"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part010",
-                      "size_bytes":  8388608,
-                      "sha256":  "3fd178818a1075171f800ecf56c55ca9c0b2491b42f0e9b512880a76b6e9f68a"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part011",
-                      "size_bytes":  8388608,
-                      "sha256":  "5cbe120590d43596e913a931f530440c6e6ac239f65ef96f6c3a89b415354a6b"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part012",
-                      "size_bytes":  8388608,
-                      "sha256":  "0acb3b43a88a6056bfccab4760c9669b6ce8fd975f028d03be68c01e3e7cf6c8"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part013",
-                      "size_bytes":  8388608,
-                      "sha256":  "593855d4c6c4d50be925dc3cc377fcf95edaa47e3d30f735b856ea1f449f3610"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part014",
-                      "size_bytes":  8388608,
-                      "sha256":  "aca50ec9d12122d49c1c47b923fed21a53d55aec1ad29cdff1088fd2b4784aca"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part015",
-                      "size_bytes":  8388608,
-                      "sha256":  "195fecb81415993045dfc997544cf5bcfb9e6424020a07b933fcb3bbad0303b4"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part016",
-                      "size_bytes":  8388608,
-                      "sha256":  "3ab00e660127ff7dcef5806539b64449e8d852598b2f3572ae3609a2e9525058"
-                  },
-                  {
-                      "path":  "assets/red-alert-2-republic-v1/red-alert-2-republic.exe.part017",
-                      "size_bytes":  2393587,
-                      "sha256":  "3753da46b6b7486bcf9ccee708d90ddb14870cfb67a7f1c431836030200e6cf4"
-                  }
-              ]
+  "$schema": "../schema/archive-entry.schema.json",
+  "id": "red-alert-2-republic",
+  "name": "红色警戒2共和国之辉",
+  "aliases": ["红警2共和国之辉", "共和国之辉", "红警2"],
+  "version": "v1",
+  "release_tag": "red-alert-2-republic-v1",
+  "asset_name": "red-alert-2-republic.exe",
+  "artifact_kind": "windows_pe",
+  "architecture": "x86",
+  "size_bytes": 136611315,
+  "sha256": "63a1f9e44a918fb2289dc0ee4e3262a7657317e9182fc86b915c06da14f8e685",
+  "authenticode": "unsigned",
+  "publish_state": "awaiting_asset_upload"
 }
