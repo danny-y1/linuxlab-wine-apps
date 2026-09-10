@@ -1,4 +1,4 @@
-﻿# LinuxLab Wine Apps
+# LinuxLab Wine Apps
 
 该仓库是 Linux 用机助手扫描的公开 Windows/Wine 应用目录。
 
