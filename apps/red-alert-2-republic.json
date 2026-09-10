@@ -4,6 +4,9 @@
   "name": "红色警戒2共和国之辉",
   "aliases": ["红警2共和国之辉", "共和国之辉", "红警2"],
   "version": "v1",
+  "source_class": "portable",
+  "source_page": "https://github.com/danny-y1/windows-app-archive/releases/tag/red-alert-2-republic-v1",
+  "download_url": "https://github.com/danny-y1/windows-app-archive/releases/download/red-alert-2-republic-v1/red-alert-2-republic.exe",
   "release_tag": "red-alert-2-republic-v1",
   "asset_name": "red-alert-2-republic.exe",
   "artifact_kind": "windows_pe",
@@ -11,5 +14,5 @@
   "size_bytes": 136611315,
   "sha256": "63a1f9e44a918fb2289dc0ee4e3262a7657317e9182fc86b915c06da14f8e685",
   "authenticode": "unsigned",
-  "publish_state": "awaiting_asset_upload"
+  "publish_state": "published"
 }
