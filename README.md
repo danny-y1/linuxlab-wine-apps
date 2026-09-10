@@ -6,7 +6,7 @@
 
 ## 内容
 
-- `linuxlab-apps.json`：机器可读的应用索引
+- `applications.json`：机器可读的应用索引
 - `apps/*.json`：单个应用的版本与文件元数据
 - `assets/**`：大文件的分段归档
 - Releases：适合直接分发的完整应用包
