@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/danny-y1/windows-app-archive/schema/archive-entry.schema.json",
+  "type": "object",
+  "required": ["id", "name", "version", "release_tag", "asset_name", "artifact_kind", "architecture", "size_bytes", "sha256", "publish_state"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "name": {"type": "string", "minLength": 1},
+    "aliases": {"type": "array", "items": {"type": "string"}},
+    "version": {"type": "string", "minLength": 1},
+    "release_tag": {"type": "string", "minLength": 1},
+    "asset_name": {"type": "string", "pattern": "^[^/\\\\]+\\.(exe|msi)$"},
+    "artifact_kind": {"enum": ["windows_pe", "windows_msi"]},
+    "architecture": {"enum": ["x86", "x64", "unknown"]},
+    "size_bytes": {"type": "integer", "minimum": 1},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "authenticode": {"type": "string"},
+    "publish_state": {"enum": ["awaiting_asset_upload", "published"]}
+  },
+  "additionalProperties": false
+}
